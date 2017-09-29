@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet"
+          type="text/css"
+          th:href="@{/resources/style.css}">
+
+</head>
+<body>
+<p th:text="'Hello, ' +  ${name} + '!'" />
+<p><a th:href="@{/home}"> go to home page</a></p>
+<p><a th:href="@{/form}">go to sample form </a></p>
+<p>No others words works here</p>
+</body>
+</html>
